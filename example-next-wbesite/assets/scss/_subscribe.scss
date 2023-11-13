@@ -1,0 +1,140 @@
+.subscribe-box {
+  background-color: var(--black);
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.subscribe-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.05;
+  background-image: url(../images/icons/subscribe-box-bg-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.subscribe-box .container {
+  position: relative;
+}
+
+.subscribe-box__content h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .subscribe-box__content h3 {
+    font-size: 22px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe-box__content h3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 576px) {
+  .subscribe-box__content {
+    position: relative;
+    padding-left: 130px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-box__content > img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 992px) {
+  .subscribe-box__content {
+    margin-bottom: 0;
+    padding-left: 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe-box__content {
+    padding-left: 120px;
+  }
+}
+
+.subscribe-box__content p {
+  margin: 0;
+  font-weight: 300;
+  color: #fff;
+}
+
+.subscribe-box__form {
+  margin-top: 20px;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .subscribe-box__form {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .subscribe-box__form {
+    margin-left: 100px;
+  }
+}
+
+.subscribe-box__form input[type="text"],
+.subscribe-box__form input[type="email"] {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+}
+
+@media (min-width: 992px) {
+  .subscribe-box__form input[type="text"],
+  .subscribe-box__form input[type="email"] {
+    height: 66px;
+  }
+}
+
+.subscribe-box__form .thm-btn {
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 15px;
+  height: 55px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .subscribe-box__form .thm-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6px;
+    height: 66px;
+    max-width: 150px;
+    height: 54px;
+    font-size: 18px;
+    margin-top: 0;
+  }
+}

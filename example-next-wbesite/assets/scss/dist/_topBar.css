@@ -1,0 +1,13 @@
+.topbar {
+  background-color: #b9d9ff;
+}
+
+.topbar .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 17px;
+  text-align: center;
+}
