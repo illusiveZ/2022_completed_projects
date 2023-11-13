@@ -1,0 +1,209 @@
+.about-two {
+  padding-top: 110px;
+  padding-bottom: 80px;
+  position: relative;
+  @include laptop {
+    padding-top: 120px;
+    padding-bottom: 195px;
+  }
+  &__bg {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+  }
+  .container {
+    position: relative;
+  }
+  &__images {
+    position: relative;
+    margin-bottom: 60px;
+    img {
+      border-radius: 50%;
+      max-width: 100%;
+      @include laptop {
+        max-width: none;
+      }
+      &:nth-child(2) {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        @include laptop {
+          top: 80px;
+          left: -100px;
+        }
+      }
+    }
+  }
+  &__content {
+    @include laptop {
+      padding-left: 70px;
+    }
+  }
+  &__summary {
+    @include tablet {
+      margin-bottom: 20px;
+    }
+    @include laptop {
+      margin-top: -25px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+
+  &__list {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    @include tablet {
+      margin-top: 0;
+    }
+    @include laptop {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    li {
+      position: relative;
+      padding-left: 25px;
+      color: $thm-secondary-colour;
+      font-weight: 500;
+      @include laptop {
+        font-size: 18px;
+        padding-left: 30px;
+      }
+      > i {
+        color: $thm-primary;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &__progress {
+    display: flex;
+    align-items: center;
+    &-box {
+      position: relative;
+      width: 118px;
+      margin-right: 20px;
+      span {
+        display: block;
+        font-family: $special-font;
+        color: $thm-base;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      canvas {
+        transform: rotate(90deg);
+        display: block;
+      }
+    }
+    &-content {
+      h3 {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.667;
+        color: $thm-secondary-colour;
+        font-weight: bold;
+        @include tablet {
+          max-width: 85px;
+        }
+      }
+    }
+  }
+  &__progress + &__progress {
+    margin-top: 10px;
+  }
+}
+
+.about-three {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  position: relative;
+  @include large-tablet {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  &__image {
+    margin-bottom: 50px;
+    @include large-tablet {
+      margin-bottom: 0;
+    }
+    img {
+      border-radius: $border-radius;
+      max-width: 100%;
+    }
+  }
+  .container {
+    position: relative;
+  }
+  &__list {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    @include laptop {
+      margin-top: -20px;
+    }
+    li {
+      flex: 0 0 100%;
+      position: relative;
+      font-size: 16px;
+      color: $thm-secondary-colour;
+      padding-left: 25px;
+      font-weight: 500;
+      @include tablet {
+        flex: 0 0 50%;
+      }
+      @include large-tablet {
+        flex: 0 0 100%;
+      }
+      @include laptop {
+        flex: 0 0 50%;
+        font-size: 16px;
+      }
+      + li {
+        @include laptop {
+          margin-top: 5px;
+        }
+      }
+      > i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        color: $thm-primary;
+        font-size: 16px;
+        @include laptop {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  &__summary {
+    margin-bottom: 20px;
+    @include laptop {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    p {
+      margin: 0;
+      @include laptop {
+        font-size: 18px;
+      }
+    }
+  }
+  &__signs {
+    display: flex;
+    align-items: center;
+    img:nth-child(1) {
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
+}
