@@ -1,0 +1,27 @@
+.btn {
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+@each $color, $value in $colour-variables {
+  .btn-#{$color} {
+    background-color: ($value);
+    border: 1px solid ($value) !important;
+    color: $white;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: transparent;
+      color: ($value);
+    }
+  }
+}
