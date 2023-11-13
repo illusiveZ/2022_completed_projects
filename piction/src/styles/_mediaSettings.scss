@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 992px) {
+  .featurehome {
+    border-right: 0;
+    display: inline-block;
+    .img,
+    .text {
+      display: inline-block;
+      width: max-content;
+    }
+    .text {
+      position: relative;
+      top: -7px;
+      left: 15px;
+    }
+  }
+  section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .slick.slicknews .slick-slide div .itm .desc .content,
+  .slick .slick-slide div .itm .content {
+    margin-bottom: 10px !important;
+    opacity: 1 !important;
+    bottom: 15px !important;
+  }
+  .slick .slick-slide div .itm .bg::before {
+    opacity: 0.3;
+  }
+  .slick.slickproject div .itm .icon {
+    opacity: 1;
+    bottom: 15px;
+  }
+  #project-info {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .project-title {
+    h1 {
+      font-size: 2rem !important;
+    }
+  }
+}

@@ -1,0 +1,303 @@
+.slick-slider {
+  margin-right: -15px;
+}
+.slick {
+  width: 100%;
+  position: relative;
+  padding: 30px 0 0;
+  margin-bottom: -7px;
+  .slick-prev {
+    left: unset;
+    right: 60px !important;
+    top: -15%;
+    z-index: 1;
+    transition: all 0.3s ease;
+    &::before {
+      content: "\f053" !important;
+      font-family: FontAwesome !important;
+      font-style: normal;
+      font-weight: normal;
+      color: $black;
+    }
+  }
+  .slick-next {
+    top: -15%;
+    right: 17px;
+    transition: all 0.3s ease;
+    &::before {
+      content: "\f054" !important;
+      font-family: FontAwesome !important;
+      font-style: normal;
+      font-weight: normal;
+      color: $black;
+    }
+  }
+  .slick-slide {
+    position: relative;
+    div {
+      margin-right: 15px;
+      .itm {
+        margin: 0;
+        position: relative;
+        height: 100%;
+        outline: none;
+        overflow: hidden;
+        .bg {
+          position: relative;
+          overflow: hidden;
+          margin-right: 0px;
+          img {
+            width: 100%;
+            height: 100%;
+            min-height: 380px;
+            object-fit: cover;
+          }
+          &:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+            background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 1),
+              rgba(0, 0, 0, 0.6)
+            );
+            opacity: 0.3;
+            transition: all 0.1s cubic-bezier(0.215, 0.61, 0.355, 1);
+          }
+        }
+        .desc {
+          position: absolute;
+          bottom: 15px;
+          left: 25px;
+          text-align: left;
+          color: $white;
+          .name {
+            font-weight: 500;
+            font-size: 1.6rem;
+            letter-spacing: 0.6px;
+            padding-bottom: 20px;
+          }
+          .content {
+            position: relative;
+            bottom: -100%;
+            color: $gray_more;
+            margin-bottom: -40%;
+            opacity: 0;
+            transition: all 0.6s ease;
+          }
+          .title {
+            font-weight: 400;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-top: -15px;
+            transition: all 0.3s ease;
+          }
+          .date {
+            font-size: 0.8rem;
+            font-weight: 400;
+            letter-spacing: 0.6px;
+            padding-bottom: 0px;
+            color: $gray;
+          }
+        }
+        .icon {
+          width: 100%;
+          position: absolute;
+          text-align: right;
+          right: 15px;
+          bottom: -30px;
+          transition: all 0.3s ease;
+          span {
+            width: 100%;
+            height: auto;
+            color: $gray_more;
+            padding: 10px;
+            i {
+              transition: all 0.3s ease;
+            }
+            &:hover {
+              i {
+                color: $color;
+              }
+            }
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          .bg:before {
+            opacity: 1;
+            height: 100%;
+            background: linear-gradient(
+              to top,
+              rgba(0, 0, 0, 1),
+              rgba(0, 0, 0, 0.6)
+            );
+            transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+          }
+          .icon {
+            bottom: 20px;
+            transition: all 0.3s ease;
+          }
+          .content {
+            opacity: 1;
+            margin-bottom: 30px;
+            transition: all 0.9s ease;
+          }
+          .title {
+            line-height: 0.9;
+            transition: all 0.3s ease;
+          }
+        }
+      }
+    }
+    &.slick-col {
+      display: block;
+      overflow: hidden;
+      div .itm .bg img {
+        min-height: 300px !important;
+      }
+    }
+  }
+  &:hover {
+    .slick-prev,
+    .slick-next {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+  }
+  &.slickclient {
+    padding: 0;
+    .slick-slider {
+      .slick-prev,
+      .slick-next {
+        display: none !important;
+      }
+      .itm {
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  &.slickproject {
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+    }
+    div {
+      margin-right: 0px;
+      .itm {
+        img {
+          margin: 0 auto;
+        }
+        .desc {
+          position: absolute;
+          bottom: 15px;
+          left: 25px;
+          text-align: left;
+          color: $white;
+          .tag {
+            font-size: 0.9rem;
+            padding-bottom: 10px;
+          }
+          .name {
+            max-width: 180px;
+            font-weight: 500;
+            font-size: 1.8rem;
+            letter-spacing: 0.6px;
+            padding-bottom: 35px;
+            transition: all 0.3s ease;
+          }
+        }
+        .icon {
+          opacity: 0;
+          left: 25px;
+          bottom: 10px;
+          text-align: left;
+          transition: all 0.3s ease;
+          span {
+            display: inline-block;
+            white-space: nowrap;
+            width: 40px;
+            padding: 0 0 5px 0;
+            color: $gray_more;
+            border-bottom: 2px solid $color;
+            transition: all 0.3s ease;
+            &:hover {
+              color: $white;
+              width: 100px;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          .icon {
+            opacity: 1;
+            bottom: 25px;
+            transition: all 0.3s ease;
+          }
+          .name {
+            padding-bottom: 45px;
+            transition: all 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+  &.slicknews {
+    .slick-next,
+    .slick-prev {
+      top: -12%;
+    }
+    .slick-slide {
+      div {
+        margin-right: 15px;
+        .bg {
+          margin-right: 0;
+        }
+        .itm {
+          .desc {
+            bottom: 60px;
+            .content {
+              margin-bottom: -30%;
+            }
+          }
+          .icon {
+            bottom: 5px;
+            left: 0;
+            padding: 10px 26px;
+            text-align: left;
+            right: unset;
+            span {
+              display: inline-block;
+              white-space: nowrap;
+              width: 40px;
+              padding: 0 0 5px 0;
+              color: $gray_more;
+              border-bottom: 2px solid $color;
+              transition: all 0.3s ease;
+              &:hover {
+                color: $white;
+                width: 85px;
+                transition: all 0.3s ease;
+              }
+            }
+          }
+          &:hover {
+            .icon {
+              bottom: 0;
+              padding: 15px 26px;
+            }
+            .content {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

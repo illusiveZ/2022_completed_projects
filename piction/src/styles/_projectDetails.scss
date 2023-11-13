@@ -1,0 +1,78 @@
+.project-title {
+  padding: 45px 7% 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+}
+.back-btn-settings {
+  white-space: nowrap;
+  top: -80px;
+  left: 0px;
+  span {
+    color: $white;
+    padding-left: 45px;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+#project-info {
+  display: block;
+  .content {
+    padding-bottom: 15px;
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    .project-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        color: $white;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 15px 0;
+        margin-bottom: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        .title {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  padding: 90px 0;
+  li {
+    .page-number {
+      color: $white;
+      background: $black;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      cursor: pointer;
+      padding: 0.7rem 1.15rem;
+      transition: all 0.3s ease;
+      i {
+        color: $white;
+        position: relative;
+        top: 1px;
+      }
+      &:hover {
+        color: $white;
+        background: $black_soft;
+        transition: all 0.3s ease;
+        i {
+          color: $white;
+        }
+      }
+      &.active {
+        color: $white;
+        background: $black_soft;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.contact-us {
+  padding: 30px 40px;
+}
+.contact-text {
+  padding: 0;
+  margin-top: 0;
+  .heading {
+    font-size: 1.6rem !important;
+  }
+  .address {
+    padding-top: 15px;
+    line-height: 1.3;
+    .heading {
+      font-size: 1.3rem !important;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+    .list {
+      position: relative;
+      max-width: 320px;
+      display: block;
+      padding: 5px 0 15px;
+      padding-left: 40px;
+      i {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-size: 1.3rem;
+        display: inline-block;
+        color: $color;
+      }
+      a {
+        color: $white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        &:hover {
+          color: $color;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
+.contact-form {
+  display: block;
+  width: 100%;
+  label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 100%;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 15px;
+  }
+  textarea {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 15px;
+  }
+  button {
+    position: relative;
+    overflow: hidden;
+    font-size: 11pt;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $white;
+    background: none;
+    border: 2px solid $color;
+    border-radius: 0;
+    padding: 8px 50px;
+    margin-top: 15px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    z-index: 0;
+    span {
+      color: $white;
+      position: relative;
+      z-index: 3;
+    }
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-image: linear-gradient(to left, $color, $color_more);
+      opacity: 0;
+      z-index: 1;
+      transition: all 0.3s ease;
+    }
+    &:hover::before {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      .shine {
+        -webkit-animation: sheen 1s alternate;
+        animation: sheen 1s alternate;
+      }
+    }
+  }
+}
+#success,
+#failed {
+  &.show {
+    display: block !important;
+  }
+  &.hide {
+    display: none;
+  }
+}
+#send-button.show {
+  pointer-events: none;
+}
+.map {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,21 @@
+accomplisments is now Services.js - use bootstrap5 html css as example for this page
+
+CarouselFeature is now AreasOfExpertise
+
+CarouselProjects is now FeaturedWorks - Done
+
+CarouselTeam is now OurTeam
+
+Remove FeatureHome.js and all references - to do
+
+m-2-hor changed to row-setting - done
+bggray changed to bg-grey - done
+
+remove carouselclientb
+
+rename carouselclient to showcase.js
+
+remove effect.styles - done
+
+
+rename all blog references to news - todo
