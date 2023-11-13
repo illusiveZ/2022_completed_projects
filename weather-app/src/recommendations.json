@@ -1,0 +1,330 @@
+{
+  "day": {
+    "200": {
+      "recommendation": "'Tis a bit stormy out there today"
+    },
+    "201": {
+      "recommendation": "A storm with the added bonus of rain. Why you leaving the house?"
+    },
+    "202": {
+      "recommendation": "Storms and it is absolutely throttling it down."
+    },
+    "210": {
+      "recommendation": "Thunder with a chance of lightning"
+    },
+    "211": {
+      "recommendation": "A little bit of lightning, thunder."
+    },
+    "212": {
+      "recommendation": "Heavy thunder and lightning, look after your pets!"
+    },
+    "221": {
+      "recommendation": "Is this the apocalypse?"
+    },
+    "230": {
+      "recommendation": "Some thunder. Some rain. Wear a coat and hat."
+    },
+    "231": {
+      "recommendation": "Thunder and rain, perfect combination for some hot chocolate"
+    },
+    "232": {
+      "recommendation": "Heavy thunder and rain, go out only if you wish to re-discover electricity"
+    },
+    "300": {
+      "recommendation": "Only a bit of drizzle"
+    },
+    "301": {
+      "recommendation": "If you go out without a jacket you're gonna have a bad time"
+    },
+    "302": {
+      "recommendation": "Rain rain go away..."
+    },
+    "310": {
+      "recommendation": "Singing in the rain"
+    },
+    "311": {
+      "recommendation": "You won't need sunscreen but you will need a jacket"
+    },
+    "312": {
+      "recommendation": "Oh look...more rain"
+    },
+    "313": {
+      "recommendation": "Definitely wear a jacket and hat, take an umbrella as well"
+    },
+    "314": {
+      "recommendation": "Stand under your umbrella, ella, ella"
+    },
+    "321": {
+      "recommendation": "Weather for the ducks"
+    },
+    "500": {
+      "recommendation": "A bit of light rain, nothing major"
+    },
+    "501": {
+      "recommendation": "Moderate rain, might turn major"
+    },
+    "502": {
+      "recommendation": "Throttling it down"
+    },
+    "503": {
+      "recommendation": "Someone contact Noah..."
+    },
+    "504": {
+      "recommendation": "Screw it, we'll build our own Ark"
+    },
+    "511": {
+      "recommendation": "Just play video games today and don't look outside"
+    },
+    "520": {
+      "recommendation": "Showers today, jacket, hat and umbrella advised"
+    },
+    "521": {
+      "recommendation": "Your flowers will love it, you will not"
+    },
+    "522": {
+      "recommendation": "The kind of rain where it leaves a free pool in your garden"
+    },
+    "531": {
+      "recommendation": "This rain is starting to get out of hand"
+    },
+    "600": {
+      "recommendation": "Just a dusting, no snow ball fights today"
+    },
+    "601": {
+      "recommendation": "SNOWBALL FIGHT!"
+    },
+    "602": {
+      "recommendation": "Arctic weather, aka, more snowball fights"
+    },
+    "611": {
+      "recommendation": "Rain and snow. Bah"
+    },
+    "612": {
+      "recommendation": "More rain and snow, hate it"
+    },
+    "615": {
+      "recommendation": "The battle between rain and snow"
+    },
+    "616": {
+      "recommendation": "Just stay in today, too cold out there"
+    },
+    "620": {
+      "recommendation": "Jacket and gloves and you'll be fine"
+    },
+    "621": {
+      "recommendation": "Jacket, gloves and hat are recommended"
+    },
+    "622": {
+      "recommendation": "In these uncertain times we urge you to stay inside"
+    },
+    "701": {
+      "recommendation": "Nature has just ripped a massive vape"
+    },
+    "711": {
+      "recommendation": "Smoke in the air, pollution risk. Stay safe and keep up to date with the news"
+    },
+    "721": {
+      "recommendation": "Hazy, be aware when driving"
+    },
+    "731": {
+      "recommendation": "If you see a coke machine where it shouldn't be, it's a mirage"
+    },
+    "741": {
+      "recommendation": "Fog. Take caution when driving"
+    },
+    "751": {
+      "recommendation": "Sandstorms. Travel only if necessary"
+    },
+    "761": {
+      "recommendation": "Potential dust storms. Wear a mask and goggles if travelling"
+    },
+    "762": {
+      "recommendation": "Volcanic ash. Keep the radio/news switched on and stay safe"
+    },
+    "771": {
+      "recommendation": "Snow squall. Stay indoors"
+    },
+    "781": {
+      "recommendation": "Tornado warnings. Find safety and avoid windows"
+    },
+    "800": {
+      "recommendation": "Sun screen, cap and anything that helps with hayfever will make this a joyous day"
+    },
+    "801": {
+      "recommendation": "A nice sunny day, get yourself to beach if you can"
+    },
+    "802": {
+      "recommendation": "A lovely sunny day"
+    },
+    "803": {
+      "recommendation": "Lovely day today, go enjoy it"
+    },
+    "804": {
+      "recommendation": "Cloudy with a chance of meatballs"
+    }
+  },
+  "night": {
+    "200": {
+      "recommendation": "'Tis a bit stormy out there today"
+    },
+    "201": {
+      "recommendation": "A storm with the added bonus of rain. Why you leaving the house?"
+    },
+    "202": {
+      "recommendation": "Storms and it is absolutely throttling it down."
+    },
+    "210": {
+      "recommendation": "Thunder with a chance of lightning"
+    },
+    "211": {
+      "recommendation": "A little bit of lightning, thunder."
+    },
+    "212": {
+      "recommendation": "Heavy thunder and lightning, look after your pets!"
+    },
+    "221": {
+      "recommendation": "Is this the apocalypse?"
+    },
+    "230": {
+      "recommendation": "Some thunder. Some rain. Wear a coat and hat."
+    },
+    "231": {
+      "recommendation": "Thunder and rain, perfect combination for some hot chocolate"
+    },
+    "232": {
+      "recommendation": "Heavy thunder and rain, go out only if you wish to re-discover electricity"
+    },
+    "300": {
+      "recommendation": "Only a bit of drizzle"
+    },
+    "301": {
+      "recommendation": "If you go out without a jacket you're gonna have a bad time"
+    },
+    "302": {
+      "recommendation": "Rain rain go away..."
+    },
+    "310": {
+      "recommendation": "Singing in the rain"
+    },
+    "311": {
+      "recommendation": "You won't need sunscreen but you will need a jacket"
+    },
+    "312": {
+      "recommendation": "Oh look...more rain"
+    },
+    "313": {
+      "recommendation": "Definitely wear a jacket and hat, take an umbrella as well"
+    },
+    "314": {
+      "recommendation": "Stand under your umbrella, ella, ella"
+    },
+    "321": {
+      "recommendation": "Weather for the ducks"
+    },
+    "500": {
+      "recommendation": "A bit of light rain, nothing major"
+    },
+    "501": {
+      "recommendation": "Moderate rain, might turn major"
+    },
+    "502": {
+      "recommendation": "Throttling it down"
+    },
+    "503": {
+      "recommendation": "Someone contact Noah..."
+    },
+    "504": {
+      "recommendation": "Screw it, we'll build our own Ark"
+    },
+    "511": {
+      "recommendation": "Just play video games today and don't look outside"
+    },
+    "520": {
+      "recommendation": "Showers today, jacket, hat and umbrella advised"
+    },
+    "521": {
+      "recommendation": "Your flowers will love it, you will not"
+    },
+    "522": {
+      "recommendation": "The kind of rain where it leaves a free pool in your garden"
+    },
+    "531": {
+      "recommendation": "This rain is starting to get out of hand"
+    },
+    "600": {
+      "recommendation": "Just a dusting, no snow ball fights today"
+    },
+    "601": {
+      "recommendation": "SNOWBALL FIGHT!"
+    },
+    "602": {
+      "recommendation": "Arctic weather, aka, more snowball fights"
+    },
+    "611": {
+      "recommendation": "Rain and snow. Bah"
+    },
+    "612": {
+      "recommendation": "More rain and snow, hate it"
+    },
+    "615": {
+      "recommendation": "The battle between rain and snow"
+    },
+    "616": {
+      "recommendation": "Just stay in today, too cold out there"
+    },
+    "620": {
+      "recommendation": "Jacket and gloves and you'll be fine"
+    },
+    "621": {
+      "recommendation": "Jacket, gloves and hat are recommended"
+    },
+    "622": {
+      "recommendation": "In these uncertain times we urge you to stay inside"
+    },
+    "701": {
+      "recommendation": "Nature has just ripped a massive vape"
+    },
+    "711": {
+      "recommendation": "Smoke in the air, pollution risk. Stay safe and keep up to date with the news"
+    },
+    "721": {
+      "recommendation": "Hazy, be aware when driving"
+    },
+    "731": {
+      "recommendation": "If you see a coke machine where it shouldn't be, it's a mirage"
+    },
+    "741": {
+      "recommendation": "Fog. Take caution when driving"
+    },
+    "751": {
+      "recommendation": "Sandstorms. Travel only if necessary"
+    },
+    "761": {
+      "recommendation": "Potential dust storms. Wear a mask and goggles if travelling"
+    },
+    "762": {
+      "recommendation": "Volcanic ash. Keep the radio/news switched on and stay safe"
+    },
+    "771": {
+      "recommendation": "Snow squall. Stay indoors"
+    },
+    "781": {
+      "recommendation": "Tornado warnings. Find safety and avoid windows"
+    },
+    "800": {
+      "recommendation": "Sun screen, cap and anything that helps with hayfever will make this a joyous day"
+    },
+    "801": {
+      "recommendation": "A nice sunny day, get yourself to beach if you can"
+    },
+    "802": {
+      "recommendation": "A lovely sunny day"
+    },
+    "803": {
+      "recommendation": "Lovely day today, go enjoy it"
+    },
+    "804": {
+      "recommendation": "Cloudy with a chance of meatballs"
+    }
+  }
+}
