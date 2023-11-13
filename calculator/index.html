@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone_body">
+      <div class="top">
+        <div id="sensor"></div>
+        <div id="camera"></div>
+        <div id="speaker"></div>
+      </div>
+      <div class="screen">
+        <div class="calc-display"><span id="display"></span></div>
+        <div class="row">
+          <div class="calc-buttons gray" id="clear">C</div>
+          <div class="calc-buttons gray" id="sign">+/-</div>
+          <div class="calc-buttons gray" id="percent">%</div>
+          <div class="calc-buttons orange operator">÷</div>
+        </div>
+
+        <div class="row">
+          <div class="calc-buttons dark-gray num">7</div>
+          <div class="calc-buttons dark-gray num">8</div>
+          <div class="calc-buttons dark-gray num">9</div>
+          <div class="calc-buttons orange operator">x</div>
+        </div>
+
+        <div class="row">
+          <div class="calc-buttons dark-gray num">4</div>
+          <div class="calc-buttons dark-gray num">5</div>
+          <div class="calc-buttons dark-gray num">6</div>
+          <div class="calc-buttons orange operator">-</div>
+        </div>
+
+        <div class="row">
+          <div class="calc-buttons dark-gray num">1</div>
+          <div class="calc-buttons dark-gray num">2</div>
+          <div class="calc-buttons dark-gray num">3</div>
+          <div class="calc-buttons orange operator">+</div>
+        </div>
+
+        <div class="row">
+          <div class="calc-buttons dark-gray num" id="zero-button">0</div>
+          <div class="calc-buttons dark-gray num" id="decimal-point">.</div>
+          <div class="calc-buttons orange" id="equal">=</div>
+        </div>
+        <div class="notch"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.1.0/math.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
